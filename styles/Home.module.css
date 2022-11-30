@@ -1,5 +1,23 @@
 .container {
-  padding: 0 2rem;
+}
+
+.header {
+  height: 20vh;
+  padding: .5rem;
+  background-color: #9bd9cb;
+}
+
+.logoholder {
+  float: left;
+  width: 60%;
+  height: 10vh;
+  padding: 0;
+  margin: 0;
+}
+
+header .img {
+  float: right;
+  width: 33%;
 }
 
 .main {
@@ -12,50 +30,6 @@
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
 .code {
   background: #fafafa;
   border-radius: 5px;
@@ -63,6 +37,27 @@
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.button {
+  float: right;
+  background-color: #3f5983;
+  color: #9EDBC8;
+  border-radius: 3px;
+  size: 3rem;
+  border-color: #3f5983;
+  border-style:solid;
+  padding: 1% 2%;
+  clear: none;
+}
+
+.header .button {
+  margin: 2rem .5rem;
+}
+
+.button:hover {
+  background-color: #9EDBC8;
+  color: #3f5983;
 }
 
 .grid {
@@ -82,18 +77,32 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  width: 75%;
+}
+
+.card .img {
+  float: left;
+  clear: none;
+  width: 12%;
+}
+
+.card .textDiv {
+  float: right;
+  clear: none;
+  width: 88%;
+  padding-left: 1%;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #3f5983;
+  border-color: #3f5983;
 }
 
 .card h2 {
-  margin: 0 0 1rem 0;
+  float: left;
+  margin: 0 0 0 0;
   font-size: 1.5rem;
 }
 
@@ -102,6 +111,50 @@
   font-size: 1.25rem;
   line-height: 1.5;
 }
+
+.card .cost {
+  float: left;
+  clear: both;
+}
+
+
+.card .description {
+  float: left;
+  clear: both;
+}
+
+
+.card .date {
+    float: right;
+    clear: right;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.card .contact {
+  font-size: 1rem;
+  float: left;
+  clear: both;
+}
+
+.card .button {
+  float: right;
+  background-color: #47AD96;
+  color: #ffffff;
+  border-radius: 3px;
+  size: 3rem;
+  border-color: #47AD96;
+  border-style:solid;
+  padding: 1% 2%;
+}
+
+.card .button:hover {
+  background-color: #ffffff;
+  color: #47AD96;
+  border-color: #47AD96;
+  border-style:solid;
+}
+
 
 .logo {
   height: 1em;
