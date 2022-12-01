@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import WebsiteHeader from "../components/website-header";
+
 
 export default function Home() {
   return (
@@ -9,12 +11,7 @@ export default function Home() {
         <title>Campus Deals</title>
         <link rel="icon" href="/icon_nobackground.png" />
       </Head>
-      <header className={styles.header}>
-        <div className={styles.logoholder}>
-          <img src="/logo_final.png" className={styles.img}/>
-        </div>
-        <button className={styles.button}>List a Product</button>
-      </header>
+      <WebsiteHeader></WebsiteHeader>
       <main className={styles.main}>
           <a className={styles.card}>
             <img src="/manyeuropespic.png" className={styles.img}/>
