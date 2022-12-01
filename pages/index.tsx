@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import WebsiteHeader from "../components/website-header";
@@ -7,11 +6,7 @@ import WebsiteHeader from "../components/website-header";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Campus Deals</title>
-        <link rel="icon" href="/icon_nobackground.png" />
-      </Head>
-      <WebsiteHeader></WebsiteHeader>
+      <WebsiteHeader />
       <main className={styles.main}>
           <a className={styles.card}>
             <img src="/manyeuropespic.png" className={styles.img}/>
