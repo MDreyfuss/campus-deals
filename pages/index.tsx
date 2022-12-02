@@ -12,7 +12,7 @@ export default function Home() {
           <a className={styles.card}>
             <img src="/manyeuropespic.png" className={styles.img}/>
             <div className = {styles.textDiv}>
-            <h2>Many Europes textbook</h2>
+            <h2>Many Europes textbook [Sample]</h2>
             <p className={styles.date}>11/30/2022</p>
             <p className={styles.cost}>$25</p>
             <p className={styles.description}>Needed for most history classes</p>
@@ -24,7 +24,7 @@ export default function Home() {
           <a className={styles.card}>
             <img src="/almondmilkpic.png" className={styles.img}/>
             <div className = {styles.textDiv}>
-            <h2>Almond milk</h2>
+            <h2>Almond milk [Sample]</h2>
             <p className={styles.date}>11/29/2022</p>
             <p className={styles.cost}>$3</p>
             <p className={styles.description}>Unopened, bought by mistake. OUD</p>
@@ -36,7 +36,7 @@ export default function Home() {
           <a className={styles.card}>
             <img src="/skirtpic.png" className={styles.img}/>
             <div className = {styles.textDiv}>
-            <h2>Maxi skirt</h2>
+            <h2>Maxi skirt [Sample]</h2>
             <p className={styles.date}>11/20/2022</p>
             <p className={styles.cost}>$50</p>
             <p className={styles.description}>Bought for $65 and only wore once. Size S but fit like an M. Super cute!!!! Willing to negotiate</p>
@@ -49,8 +49,8 @@ export default function Home() {
           <a className={styles.card}>
             <img src="/lsatbookpic.png" className={styles.img}/>
             <div className = {styles.textDiv}>
-            <h2>LSAT Prep Book</h2>
-            <p className={styles.date}>08/10/2022</p>
+            <h2>LSAT Prep Book [Sample]</h2>
+            <p className={styles.date}>11/15/2022</p>
             <p className={styles.cost}>$15</p>
             <p className={styles.description}></p>
             <p className={styles.contact}>Miriam D 000-000-0000 </p>
