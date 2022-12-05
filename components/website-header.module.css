@@ -1,0 +1,39 @@
+.header {
+    height: 20vh;
+    padding: .5rem;
+    background-color: #9bd9cb;
+  }
+  
+  .logoholder {
+    float: left;
+    width: 60%;
+    height: 10vh;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header .img {
+    float: right;
+    width: 33%;
+  }
+
+  .button {
+    float: right;
+    background-color: #3f5983;
+    color: #9EDBC8;
+    border-radius: 3px;
+    size: 3rem;
+    border-color: #3f5983;
+    border-style:solid;
+    padding: 1% 2%;
+    clear: none;
+  }
+  
+  .header .button {
+    margin: 2rem .5rem;
+  }
+  
+  .button:hover {
+    background-color: #9EDBC8;
+    color: #3f5983;
+  }
