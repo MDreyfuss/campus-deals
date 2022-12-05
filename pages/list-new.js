@@ -21,7 +21,7 @@ export default function ListNew() {
                 <input type="text" id="itemCost" name="itemCost" className={styles.textInput}/>
 
                 <label for="itemDescription"className={styles.label}>Description</label>
-                <input type="text" id="itemDescription" name="itemDescription" className={styles.textInput}/>
+                <textarea type="text" id="itemDescription" name="itemDescription" className={styles.textInput}/>
 
                 <label for="itemContact"className={styles.label}>Name and Contact Info</label>
                 <input type="text" id="itemContact" name="itemContact" className={styles.textInput}/>
