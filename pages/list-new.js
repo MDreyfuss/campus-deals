@@ -15,6 +15,7 @@ export default function ListNew() {
                 <input type="text" id="itemTitle" name="itemTitle" className={styles.textInput}/>
 
                 <label for="itemImage"className={styles.label}>Upload Image</label>
+                <img src="/UploadIcon.png" className={styles.img}/>
 
                 <label for="itemCost"className={styles.label}>Cost</label>
                 <input type="text" id="itemCost" name="itemCost" className={styles.textInput}/>
