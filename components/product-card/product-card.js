@@ -3,7 +3,7 @@ import styles from './product-card.module.css';
 export default function WebsiteHeader({pic, itemName, date, cost, description, contact}) {
     return(
         <a className={styles.card}>
-        <img src={pic} className={styles.img}/>
+        <img src={pic ? pic : '/placeholder.png'} className={styles.img}/>
         <div className = {styles.textDiv}>
         <h2>{itemName}</h2>
         <p className={styles.date}>{date}</p>
