@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import WebsiteHeader from "../components/website-header";
+import ProductCard from "../components/product-card/product-card";
 
 
 export default function Home() {
@@ -9,17 +10,14 @@ export default function Home() {
     <div className={styles.container}>
       <WebsiteHeader />
       <main className={styles.main}>
-          <a className={styles.card}>
-            <img src="/manyeuropespic.png" className={styles.img}/>
-            <div className = {styles.textDiv}>
-            <h2>Many Europes textbook [Sample]</h2>
-            <p className={styles.date}>11/30/2022</p>
-            <p className={styles.cost}>$25</p>
-            <p className={styles.description}>Needed for most history classes</p>
-            <p className={styles.contact}>Miriam D 000-000-0000 </p>
-            <button className={styles.button}>Buy Now</button>
-            </div>
-          </a>
+
+        <ProductCard itemName={'Many Europes textbook [Sample]'}
+                     pic={"/manyeuropespic.png"} 
+                     date={'11/30/2022'} 
+                     cost={'$25'} 
+                     description={'Needed for most history classes'} 
+                     contact={'Miriam D 000-000-0000'} 
+                     />
 
           <a className={styles.card}>
             <img src="/almondmilkpic.png" className={styles.img}/>
